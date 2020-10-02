@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./header.css">
+    <title>Song By Genre</title>
+</head>
+<body>
+    <header>
+        <div class="menus">
+			<ul>
+				<div id="logo">
+					<li><a href="./Header.html"><img src="./assets/Logo.jpg" width="100" height="50"></a></li>
+				</div>
+				<div id="name">
+					<li><a href="./Header.html" style="text-decoration: none">RX Player</a></li>
+				</div>
+				<li class="active"><a href="./Header.html" style="text-decoration: none"><b>Home</b></a></li>
+				<li><a href="" style="text-decoration: none">Discover</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="./top10.html">Top 10 Asian Songs</a></li>
+							<li><a href="./songbygenre.html">Genres For You</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="./premium.html" style="text-decoration: none">Premium</a></li>
+				<li><a href="./register.html" style="text-decoration: none">Register</a></li>
+			</ul>
+		</div>
+    </header>
+    <main>
+        <div class="musicbygenrehead">
+            <h2>Genres For You</h2>
+        </div>
+        <div class="genrecontainer">
+            <div class="musicbox">
+                <div class="genre">
+                    <h3 style="text-align: center;">Pop</h3>
+                        <div class="thisgenremusiclist">
+                            <div class="song">
+                                <div class="songimage">
+                                    <img src="./Asset/Pop1.jpeg" alt="pop1">
+                                </div>
+                                <div class="lower">
+                                    <h4>Shape Of You - Ed Sheeran</h4>
+                                    <div class="playbutton">
+                                        <audio id="play1" src="./Asset/Song/Ed Sheeran - Shape Of You [Official].mp3" type = "audio/mpeg" preload="auto"></audio>
+                                        <button><img src="./Asset/playbutton.png" onclick="playandstop1()"></button>
+                                        <script src="./audioplay.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="songimage">
+                                    <img src="./Asset/pop2.jpg" alt="pop2">
+                                </div>
+                                <div class="lower">
+                                    <h4>Sunflower(Ft. Swae Lee) - Post Malone</h4>
+                                    <div class="playbutton">
+                                        <audio id="play2" src="./Asset/Song/Post Malone, Swae Lee - Sunflower (Spider-Man Into the Spider-Verse).mp3" type = "audio/mpeg" preload="auto"></audio>
+                                        <button><img src="./Asset/playbutton.png" onclick="playandstop2()"></button>
+                                        <script src="./audioplay.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="songimage">
+                                    <img src="./Asset/Pop3.jpg" alt="pop3">
+                                </div>
+                                <div class="lower">
+                                    <h4>Stuck With You (Ft. Justin Bieber) - Ariana Grande</h4>
+                                    <div class="playbutton">
+                                        <audio id="play3" src="./Asset/Song/Ariana Grande, Justin Bieber - Stuck with U.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                        <button><img src="./Asset/playbutton.png" onclick="playandstop3()"></button>
+                                        <script src="./audioplay.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="songimage">
+                                    <img src="./Asset/pop4.jpg" alt="pop4">
+                                </div>
+                                <div class="lower">
+                                    <h4>Be Kind(With. Halsey) - Marshmello</h4>
+                                    <div class="playbutton">
+                                        <audio id="play4" src="./Asset/Song/Marshmello & Halsey - Be Kind (Marshmello).mp3" type = "audio/mpeg" preload="auto"></audio>
+                                        <button><img src="./Asset/playbutton.png" onclick="playandstop4()"></button>
+                                        <script src="./audioplay.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="songimage">
+                                    <img src="./Asset/Pop5.jpg" alt="pop5">
+                                </div>
+                                <div class="lower">
+                                    <h4>Lose Somebody - Kygo, One Republic</h4>
+                                    <div class="playbutton">
+                                        <audio id="play5" src="./Asset/Song/Kygo, OneRepublic - Lose Somebody (Audio).mp3" type = "audio/mpeg" preload="auto"></audio>
+                                        <button><img src="./Asset/playbutton.png" onclick="playandstop5()"></button>
+                                        <script src="./audioplay.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="genre">
+                    <h3 style="text-align: center;">K-Pop</h3>
+                    <div class="thisgenremusiclist">
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/k-pop1.jpg" alt="k-pop1">
+                            </div>
+                            <div class="lower">
+                                <h4>Candy - Baekhyun</h4>
+                                <div class="playbutton">
+                                    <audio id="play6" src="./Asset/Song/BAEKHYUN 백현 Candy MV.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop6()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/Number10.jpg" alt="k-pop2">
+                            </div>
+                            <div class="lower">
+                                <h4>Eight(Ft. SUGA) - IU</h4>
+                                <div class="playbutton">
+                                    <audio id="play7" src="./Asset/Song/IU SUGA eight (아이유 슈가 에잇 가사) [Color Coded Han Rom Eng].mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop7()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/k-pop3.jpg" alt="k-pop3">
+                            </div>
+                            <div class="lower">
+                                <h4>Wannabe - ITZY</h4>
+                                <div class="playbutton">
+                                    <audio id="play8" src="./Asset/Song/ITZY WANNABE M V.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop8()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/k-pop4.jpg" alt="k-pop4">
+                            </div>
+                            <div class="lower">
+                                <h4>Kick It - NCT</h4>
+                                <div class="playbutton">
+                                    <audio id="play9" src="./Asset/Song/NCT 127 엔시티 127 영웅 (英雄; Kick It) MV.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop9()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/k-pop5.jpg" alt="k-pop5">
+                            </div>
+                            <div class="lower">
+                                <h4>Psycho - Red Velvet</h4>
+                                <div class="playbutton">
+                                    <audio id="play10" src="./Asset/Song/Red Velvet 레드벨벳 Psycho MV.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop10()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="genre">
+                    <h3 style="text-align: center;">J-Pop</h3>
+                    <div class="thisgenremusiclist">
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/jpop1.jpg" alt="j-pop1">
+                            </div>
+                            <div class="lower">
+                                <h4>I Love... - Official HIGE DANdism's</h4>
+                                <div class="playbutton">
+                                    <audio id="play11" src="./Asset/Song/Official髭男dism - I LOVE...［Official Video］.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop11()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/jpop2.jpg" alt="j-pop2">
+                            </div>
+                            <div class="lower">
+                                <h4>Gurenge - LiSA</h4>
+                                <div class="playbutton">
+                                    <audio id="play12" src="./Asset/Song/Demon Slayer Kimetsu no Yaiba Opening Full『LiSA - Gurenge』【ENG Sub】.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop12()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/jpop3.jpg" alt="j-pop3">
+                            </div>
+                            <div class="lower">
+                                <h4>Walking With You - Novelbright</h4>
+                                <div class="playbutton">
+                                    <audio id="play13" src="./Asset/Song/Novelbright - Walking with you [Official Music Video].mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop13()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/jpop4.jpg" alt="j-pop4">
+                            </div>
+                            <div class="lower">
+                                <h4>Peace Sign - Kenshi Yonezu</h4>
+                                <div class="playbutton">
+                                    <audio id="play14" src="./Asset/Song/米津玄師 MV「ピースサイン」Kenshi Yonezu Peace Sign.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop14()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/Number9.jpg" alt="j-pop5">
+                            </div>
+                            <div class="lower">
+                                <h4>Uma To Shika - Kenshi Yonezu</h4>
+                                <div class="playbutton">
+                                    <audio id="play15" src="./Asset/Song/米津玄師 MV「馬と鹿」Uma to Shika.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop15()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="genre">
+                    <h3 style="text-align: center;">Alternative / Indie</h3>
+                    <div class="thisgenremusiclist">
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/indie1.jpg" alt="indie1">
+                            </div>
+                            <div class="lower">
+                                <h4>False Confidence - Noah Kahan</h4>
+                                <div class="playbutton">
+                                    <audio id="play16" src="./Asset/Song/Noah Kahan - False Confidence (Audio).mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop16()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/indie2.jpg" alt="indie2">
+                            </div>
+                            <div class="lower">
+                                <h4>Believer - Imagine Dragons</h4>
+                                <div class="playbutton">
+                                    <audio id="play17" src="./Asset/Song/Imagine Dragons - Believer.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop17()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/indie3.jpg" alt="indie3">
+                            </div>
+                            <div class="lower">
+                                <h4>Exist For Love - AURORA</h4>
+                                <div class="playbutton">
+                                    <audio id="play18" src="./Asset/Song/AURORA - Exist For Love.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop18()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/indie4.jpg" alt="indie4">
+                            </div>
+                            <div class="lower">
+                                <h4>Bad Liar - Imagine Dragons</h4>
+                                <div class="playbutton">
+                                    <audio id="play19" src="./Asset/Song/Imagine Dragons - Bad Liar.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop19()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/indie5.jpg" alt="indie5">
+                            </div>
+                            <div class="lower">
+                                <h4>Hide(Ft.Seezyn) - Juice Wrld</h4>
+                                <div class="playbutton">
+                                    <audio id="play20" src="./Asset/Song/Juice WRLD, Seezyn - Hide (Spider-Man Into the Spider-Verse).mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop20()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="genre">
+                    <h3 style="text-align: center;">Hip-Hop</h3>
+                    <div class="thisgenremusiclist">
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/hiphop1.jpg" alt="hiphop1">
+                            </div>
+                            <div class="lower">
+                                <h4>Deep End Freestyle - Sleepy Hallow</h4>
+                                <div class="playbutton">
+                                    <audio id="play21" src="./Asset/Song/Sleepy Hallow - Deep End Freestyle (Audio).mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop21()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/hiphop2.jpg" alt="hiphop2">
+                            </div>
+                            <div class="lower">
+                                <h4>Roses Remix (Ft. Future) - Saint Jhn</h4>
+                                <div class="playbutton">
+                                    <audio id="play22" src="./Asset/Song/Saint Jhn Roses Remix ft. Future (Official Audio Video).mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop22()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/hiphop3.jpg" alt="hiphop3">
+                            </div>
+                            <div class="lower">
+                                <h4>Elevate - DJ Khalil</h4>
+                                <div class="playbutton">
+                                    <audio id="play23" src="./Asset/Song/DJ Khalil - Elevate (Spider-Man Into the Spider-Verse).mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop23()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/hiphop4.jpg" alt="hiphop4">
+                            </div>
+                            <div class="lower">
+                                <h4>Tell Me U Luv Me - Juice WRLD, Trippie Redd</h4>
+                                <div class="playbutton">
+                                    <audio id="play24" src="./Asset/Song/Juice WRLD, Trippie Redd- Tell Me U Luv Me.mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop24()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <div class="songimage">
+                                <img src="./Asset/hiphop5.jpg" alt="hiphop5">
+                            </div>
+                            <div class="lower">
+                                <h4>Shimmy(Ft. Doja Cat) - Lil Wayne</h4>
+                                <div class="playbutton">
+                                    <audio id="play25" src="./Asset/Song/Lil Wayne - Shimmy feat. Doja Cat (Audio).mp3" type = "audio/mpeg" preload="auto"></audio>
+                                    <button><img src="./Asset/playbutton.png" onclick="playandstop25()"></button>
+                                    <script src="./audioplay.js"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+			<ul>
+				<div id="logo">
+					<li><a href="./Header.html"><img src="./assets/Logo.jpg width="100" height="50"></a></li>
+				</div>
+				<div id="name">
+					<li><a href="./Header.html" style="text-decoration: none">RX Player</a></li>
+				</div>
+				<h1>Follow us in:</h1>
+				<li><a href="https://www.facebook.com"><img src="./assets/facebook.png" width="50px" height="50px"></a></li>
+				<li><a href="https://www.instagram.com"><img src="./assets/instagram.png" width="50px" height="50px"></a></li>
+				<li><a href="https://www.twitter.com"><img src="./assets/twitter.png" width="50px" height="50px"></a></li>
+			</ul>
+		</div>
+    </footer>
+</body>
+</html>

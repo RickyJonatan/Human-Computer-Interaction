@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #2A2A2A;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+header .menus{
+	background: #FFFFFF;
+	text-align: right;
+}
+header .menus ul{
+	display: inline-flex;
+	list-style: none;
+}
+header .menus ul #logo li a{
+	position: absolute;
+	display: inline-flex;
+	left: 20px;
+	top: 15px;
+}
+header .menus ul #name li a{
+	position: absolute;
+	display: inline-flex;
+	left: 135px;
+	top: 23px;
+	font-size: 35px;
+}
+header .menus ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+header .menus ul li a{
+	text-decoration: none;
+	font-family: helvetica;
+	color: #000000;
+}
+header .active, .menus ul li a:hover{
+	color: #ea9504;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+.submenu{
+    display: none;
+}
+.menus ul li:hover .submenu{
+	display: block;
+	position: absolute;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border: 1px solid black;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menus ul li:hover .submenu ul{
+	display: block;
+	margin: 10px;
+}
+.menus ul li:hover .submenu ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #2A2A2A;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menus ul li:hover .submenu ul li:last-child{
+	border-bottom: none;
+}
+
+.img{
+	padding-top: 70px;
+}
+#premiumreason{
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+#premiumreason li{
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+#premiumreason li p{
+	padding-bottom: 80px;
+}
+
+#premiumplans{
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+#premiumplans ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+#premiumplans ul li{
+  
+  margin: 10px;
+  display: block;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+#premiumplans ul li p{
+	padding-bottom: 80px;
+}
+
+.kotak{
+	width:400px;
+	height:300px;
+	margin: auto;
+	padding:10px;
+	background:black;
+}
+
+footer .foot{
+	background: #FFFFFF;
+	text-align: right;
+}
+footer .foot ul{
+	display: inline-flex;
+	list-style: none;
+}
+footer .foot ul #logo li a{
+	position: absolute;
+	display: inline-flex;
+	left: 23px;
+}
+footer .foot ul #name li a{
+	position: absolute;
+	display: inline-flex;
+	font-size: 35px;
+	left: 135px;
+	padding-top: 7px;
+}
+footer .foot ul li{
+	width: 80px;
+	margin: 10px;
+	padding: 5px;
+}
+footer .foot ul h1{
+	display: inline-flex;
+	font-size: 20px;
+	padding-top: 30px;
+}
+footer .foot ul li a{
+	text-decoration: none;
+	font-family: helvetica;
+	color: #000000;
+}

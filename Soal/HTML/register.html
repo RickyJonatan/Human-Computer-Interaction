@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Register</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="register.css">
+        <link rel="stylesheet" href="header.css">
+    </head>
+    <body>
+        <header>
+            <div class="menus">
+                <ul>
+                    <div id="logo">
+                        <li><a href="./Header.html"><img src="./assets/Logo.jpg" width="100" height="50"></a></li>
+                    </div>
+                    <div id="name">
+                        <li><a href="./Header.html" style="text-decoration: none">RX Player</a></li>
+                    </div>
+                    <li class="active"><a href="./Header.html" style="text-decoration: none"><b>Home</b></a></li>
+                    <li><a href="" style="text-decoration: none">Discover</a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="./top10.html">Top 10 Asian Songs</a></li>
+                                <li><a href="./songbygenre.html">Genres For You</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="./premium.html" style="text-decoration: none">Premium</a></li>
+                    <li><a href="./register.html" style="text-decoration: none">Register</a></li>
+                </ul>
+            </div>
+        </header>
+        <!--form-->
+        <main>
+        <div class="form-register">
+        <form action="">
+
+            <h1>Register</h1>
+
+            <div class="grup">
+                <input id="name-input" type="text" placeholder="Fullname"><br>
+            </div>
+
+            <div class="grup">
+                <input id="email-input" type="text" placeholder="E-mail"><br>
+            </div>
+
+            <div class="grup">
+                <input id="password-input" type="password" placeholder="Password"><br>
+            </div>
+
+            <div class="grup">
+                <label for="radio-male">MALE</label>
+                <input id="radio-male" type="radio" name="gender" value="male">
+
+            </div>
+
+            <div class="grup">
+                <label for="radio-male">FEMALE</label>
+                <input id="radio-female" type="radio" name="gender" value="female">
+            </div>
+
+            <div class="grup">
+                <select name="Payment" id="Payment">
+                    <option value=""  >Choose Payment Method</option>
+                    <option value="OVO">OVO</option>
+                    <option value="OVO">GOPAY</option>
+                    <option value="OVO">CASH</option>
+                </select>
+            </div>  
+
+            <div class="grup">
+                <input id="terms" type="checkbox" >AGREE TO TERMS AND CONDITIONS
+            </div>
+               
+            <div class="button">
+                <input id="register-btn" type="submit" onclick="OnRegister()" value="Register">
+            </div>
+
+        </form>
+    </div>
+    </main>
+    </body>
+    <script src="scriptregister.js" ></script>
+</html>
